@@ -15,11 +15,11 @@ const Footer = () => {
                         </li>
                         <li style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
                             <Phone size={18} style={{ marginRight: '10px', color: 'var(--accent-color)' }} />
-                            <span>+91 88055 89202</span>
+                            <span>+91 9420799455</span>
                         </li>
                         <li style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
                             <Mail size={18} style={{ marginRight: '10px', color: 'var(--accent-color)' }} />
-                            <span></span>
+                            <span>janseva00057@gmail.com</span>
                         </li>
                     </ul>
                 </div>

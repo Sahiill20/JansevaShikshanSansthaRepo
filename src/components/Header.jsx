@@ -19,9 +19,14 @@ const Header = () => {
             zIndex: 1000
         }}>
             <div className="branding" style={{ display: 'flex', flexDirection: 'column' }}>
-                <Link to="/" style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--primary-color)' }}>
-                    JANSEVA SHIKSHAN AND SAMAJIK BAHUUDDESHIY SANSTHA
-                </Link>
+                <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
+                    <Link to="/" >
+                        <img src="/src/assets/Logo.jpg.jpeg" alt="Logo" style={{ width: '80px', height: '80px' }} />
+                    </Link>
+                    <Link to="/" style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--primary-color)' }}>
+                        JANSEVA SHIKSHAN AND SAMAJIK BAHUUDDESHIY SANSTHA
+                    </Link>
+                </div>
                 <span style={{ fontSize: '0.8rem', color: '#666' }}>Registration No: Yavatmal/0000057/2026</span>
             </div>
 
